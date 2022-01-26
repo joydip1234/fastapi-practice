@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "==0.17.0.post1"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
+
+[dev-packages]
+pytest = "==5.2.2"
+pytest-cov = "==2.6.1"
+pytest-env = "==0.6.2"
+pytest-socket = "==0.3.2"
+pytest-xdist = "==1.32.0"
+fastapi = "==0.73.0"
